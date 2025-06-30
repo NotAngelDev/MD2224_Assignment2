@@ -1,0 +1,251 @@
+ <!-- /* Name: Angeline Ong Xing Yen
+ * Date: 28/5/2025
+ * Version: 1.0
+ * Purpose: MD2224 Assignment 1
+ */ --> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Offer for Arts and Events</title>
+  
+  <link rel="stylesheet" href="offerStyles.css">
+  <script src="script.js"></script>
+  
+</head>
+  
+<body>  
+    
+  <header class="offer-header"> 
+        <h1>Arts and Events</h1>
+    <p>Experiences Made Like Never Before</p>
+  </header>
+
+  <nav class="offer-nav"> 
+    <ul>
+      <li><img src="img/LogoWhite.png" alt="Logo" width="65" height="38"></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#offer-event">Find Out More</a></li>
+      <li><a href="offer.html" class="current">Offer</a></li>
+      <li><a href="#" onclick="creditOnClick()">Credits</a></li>
+      <li><a href="#">Admin</a></li>
+            <li><a href="wireframe/MD2224_A1_Wireframe_AngelineOngXingYen.pdf">Wireframe</a></li>
+        
+<!-- Get Tickets Nav -->
+      <li class=dropdown>
+        <a style= "background-color: #e87ec4; border-radius: 6px; font-weight: bold; color: black;" 
+           href="#" class="dropbtn">Get Tickets ⇣</a>
+        <div class="dropdown-content">
+            <a href="#" style="color: white; font-weight: bold;">Penang</a>
+            <a href="#" style="color: white; font-weight: bold;">Selangor</a>
+            <a href="#" style="color: white; font-weight: bold;">Johor</a>
+            <a href="#" style="color: white; font-weight: bold;">Putrajaya</a>
+        </div>
+        
+    </ul>
+  </nav>
+
+<!-- Parallax section -->
+  <div class="content1">     
+     <div class="overlay">  
+         
+        <div class="content1info"> 
+            <div class="column1">
+                <img src="img/lalaDj.avif" alt="Dj" style="width: 350px; height: 350px; 
+                box-shadow: -2px 2px 15px 6px rgba(0, 0, 0, 0.24); ">
+            </div> 
+            
+            <div class="column1">
+                <div class="empty" style="width: 300px"> </div>
+            </div>
+
+            <div class="column1">
+                <h2>ALTICE ARENA<br>31st December, 2025</h2>
+                <p>"Spend your weekends with DJ LALA now!"</p>
+                <a href="#" class="content1btn">BOOK NOW</a>
+            </div>
+        </div> 
+      </div>
+    </div> 
+
+<!-- Content 2 Information etc, below background 1-->
+    <div class="content2info">
+        <div class="column">
+          <h2>Attendees</h2>
+          <p class="infoDesc">70,000+</p>
+        </div>
+        <div class="column">
+          <h2>Speakers</h2>
+          <p class="infoDesc">1,200+</p>
+        </div>
+        <div class="column">
+          <h2>Reviews</h2>
+          <p class="infoDesc">4.9/5</p>
+        </div>
+        <div class="column">
+          <h2>Journalists</h2>
+          <p class="infoDesc">2,600+</p>
+        </div>
+    </div>
+    
+<!-- Content for Events etc. -->
+  <main class="offer-main">
+    <div class="offer-highlight">
+      <h2><br>Special Offer: Save 60% on Cyber Monday!</h2>
+      <p><br>Enjoy more Offer on Early Bookings valid until Dec 31st!
+         Book your slot for CYBER MONDAY event now.</p><br>
+      <img src="img/techOffer.jpg" alt="Events promotion" class="offer-image">
+      <a href="#" class="offer-button">Book Now</a>
+    </div>
+  </main>
+    
+    <div class="upEvents">
+      <h3>Upcoming Events</h3>
+      <ul>
+        <li>Georgetown Art Walk – July 5th</li>
+        <li>Penang Jazz Fest – August 12th</li>
+        <li>Photography Expo – September 20th</li>
+      </ul>
+    </div>
+    <br>    
+  
+  <div id= "offer-event">
+      <div class="event-container">
+        <!-- Event 1 -->
+        <div class="event-box">
+            <div class="box-image">
+                <img src="img/noordinz.png" alt="Event">
+            </div>
+            <div class="box-info">
+                <h3>Guarantee Investment Return Program</h3>
+                <p class="position">by Angel Dev</p>
+                <p class="description">Risk-free investment with guarantee ROI in George Town.</p>
+                <button class="contact-btn">Contact</button>
+            </div>
+        </div>
+
+        <!-- Eventr 2 -->
+        <div class="event-box">
+            <div class="box-image">
+                <img src="img/hinbus.png" alt="Event">
+            </div>
+            <div class="box-info">
+                <h3>Lamer'Ja Art Exhibition at Hin Bus Depot</h3>
+                <p class="position">12th Sept - 21st Sept 2025</p>
+                <p class="description">Join us now at 31a Jalan Gurdwara, 10300 George Town, Penang.</p>
+                <button class="contact-btn">Contact</button>
+            </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="event-box">
+            <div class="box-image">
+                <img src="img/musicconcert.jpg" alt="Event">
+            </div>
+            <div class="box-info">
+                <h3>THURSDAY The Hunger Music Drink Night</h3>
+                <p class="position">24th July - 1st August 2025</p>
+                <p class="description">Inviting international DJs to perform and party all night</p>
+                <button class="contact-btn">Contact</button>
+            </div>
+        </div>
+
+        <!-- Event 4 -->
+        <div class="event-box">
+            <div class="box-image">
+                <img src="img/arteDeMayo.png" alt="Event">
+            </div>
+            <div class="box-info">
+                <h3>Arte De Mayo: Conceptual Art Festival</h3>
+                <p class="position">by Bixby Knolls</p>
+                <p class="description">An art festival for art enthusiasts in visual arts in Malaysia.</p>
+                <button class="contact-btn">Contact</button>
+            </div>
+        </div>
+  
+          <!-- Event 5 -->
+        <div class="event-box">
+            <div class="box-image">
+                <img src="img/PIFF.jpg" alt="Event">
+            </div>
+            <div class="box-info">
+                <h3>Taste Of Penang Food Festival by PIFF</h3>
+                <p class="position">27th Aug - 28th Aug 2025</p>
+                <p class="description">Taste of Penang (TOP) serving delicious food from 5pm-11pm.</p>
+                <button class="contact-btn">Contact</button>
+            </div>
+        </div>
+      
+        <!-- Event 6 -->
+        <div class="event-box">
+            <div class="box-image">
+                <img src="img/bookxcess.png" alt="Event">
+            </div>
+            <div class="box-info">
+                <h3>BookXcess Mid-Year till End-June Sale</h3>
+                <p class="position">At Kuala Lumpur, East Mall</p>
+                <p class="description">Enjoy 40% off normal prices for all books during the clearance sale.</p>
+                <button class="contact-btn">Contact</button>
+            </div>
+          </div>
+        
+        <!-- Event 7 -->
+        <div class="event-box">
+            <div class="box-image">
+                <img src="img/artsound.jpg" alt="Event">
+            </div>
+            <div class="box-info">
+                <h3>The Art Of Sound Concert by TUTAN</h3>
+                <p class="position">19th April - 20th April 2025</p>
+                <p class="description">A celebration of sound and music, featuring Nancy Zhou and more.</p>
+                <button class="contact-btn">Contact</button>
+            </div>
+          </div>
+          
+        <!-- Event 8 -->
+        <div class="event-box">
+            <div class="box-image">
+                <img src="img/comingsoonGIF.gif" alt="Event">
+            </div>
+            <div class="box-info">
+                <h3>More Event Coming Soon. Stay Tuned!</h3>
+                <p class="position">To be released...</p>
+                <p class="description">View other upcoming events at across Malaysia over here!</p>
+                <button class="contact-btn">More Info</button>
+            </div>
+          </div>
+
+  <!-- /div for id and container -->
+    </div> 
+  </div>
+
+  <div class="content2">
+    <div class="content2info">
+        <div class="column" style="width: 80%">
+          <a href="img/Logo.png">
+            <img src="img/LogoCrop.png" alt="Logo" width="150" height="88"></a>
+        </div>     
+        <div class="column">
+          <h2>Find us on</h2>
+          <p class="number">www.&amp;gelartsevent.my</p>
+        </div>
+        <div class="column">
+          <h2>E-mail</h2>
+          <p class="number">H2308416011@hcu.edu.my</p>
+        </div>
+        <div class="column">
+          <h2>Contact us</h2>
+          <p class="number">+601155343665</p>
+        </div>         
+    </div>
+  </div>   
+    
+  <footer class="offer-footer">
+    <p>&copy; AngelDev 2025 Arts and Events. All rights reserved.</p>
+  </footer>
+
+  
+</body>
+</html>
