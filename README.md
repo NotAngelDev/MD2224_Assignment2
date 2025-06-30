@@ -6,5 +6,4 @@ Group 3
   2. After EDIT, Paste your code in the file or Upload file
   3. Them please mention in comment text that you amended the code
 
-/* UPDATE ON 1/7/2025 1am by Angel */
-OR <!-- UPDATE ON 1/7/2025 1am by Angel --> 
+eg: /* UPDATE ON 1/7/2025 1am by Angel */
